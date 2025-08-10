@@ -2,7 +2,12 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated class="bg-primary text-white">
       <q-toolbar>
-        <q-toolbar-title @click="router.push('/books')">📚 Biblioteca Virtual</q-toolbar-title>
+       <q-toolbar-title class="row items-center">
+          <q-avatar>
+            <img src="../assets/logo.png" />
+          </q-avatar>
+          <span class="q-ml-md">Biblioteca Virtual</span>
+        </q-toolbar-title>
 
         <!-- Ícone de menu -->
         <q-btn
